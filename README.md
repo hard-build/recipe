@@ -36,7 +36,7 @@ translation unit, and links its archive into reachable binaries.
 
 ## Testing
 
-Every recipe has a neighboring `*_test.cpp` GoogleTest source. Run the complete
+Every recipe has a neighboring `*.test.cpp` GoogleTest source. Run the complete
 suite with:
 
 ```bash
@@ -54,7 +54,7 @@ hard --target=linux.v1 test .
 Keep recipes in the repository root without per-library directories. Add both:
 
 - `<library>.hard.h`, containing the recipe and public library include;
-- `<library>_test.cpp`, containing a focused GoogleTest that builds, links, and
+- `<library>.test.cpp`, containing a focused GoogleTest that builds, links, and
   exercises the library.
 
 Before submitting a recipe, run its test independently and then run the complete
