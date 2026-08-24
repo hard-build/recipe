@@ -17,22 +17,22 @@ packages, and build artifacts outside the consuming project.
 
 ## Usage
 
-Include a recipe through hard's GitHub source namespace:
+Include a recipe through hard's well-known recipe namespace:
 
 ```cpp
-#include <github.com/hard-build/recipes/tinyxml2.hard.h>
+#include <recipe/tinyxml2.hard.h>
 ```
 
 or:
 
 ```cpp
-#include <github.com/hard-build/recipes/yaml-cpp.hard.h>
+#include <recipe/yaml-cpp.hard.h>
 ```
 
-When the include is active, hard downloads this repository and the upstream
-library source, builds the declared static package, adds its installed include
-directory to the translation unit, and links its archive into reachable
-binaries.
+The `recipe/` prefix maps to `github.com/hard-build/recipe/`. When the include
+is active, hard downloads this repository and the upstream library source,
+builds the declared static package, adds its installed include directory to the
+translation unit, and links its archive into reachable binaries.
 
 ## Testing
 
