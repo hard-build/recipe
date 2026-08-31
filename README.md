@@ -1,6 +1,6 @@
 # hard recipes
 
-This repository contains reusable recipes for building compiled C and C++
+This repository contains reusable recipes for building compiled C and C+
 libraries with [hard](https://github.com/hard-build/hard). Each recipe is a
 header containing a `hard.recipe.v1` YAML block and the public header of the
 library it provides.
@@ -14,6 +14,7 @@ packages, and build artifacts outside the consuming project.
 | --- | --- | --- |
 | TinyXML2 | `tinyxml2.hard.h` | `github.com/leethomason/tinyxml2` |
 | yaml-cpp | `yaml-cpp.hard.h` | `github.com/jbeder/yaml-cpp` |
+| zlib | `zlib.hard.h` | `github.com/madler/zlib` |
 
 ## Usage
 
