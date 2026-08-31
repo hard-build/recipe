@@ -12,6 +12,7 @@ packages, and build artifacts outside the consuming project.
 
 | Library | Recipe header | Upstream source |
 | --- | --- | --- |
+| CRC32C | `crc32c.hard.h` | `github.com/google/crc32c` |
 | TinyXML2 | `tinyxml2.hard.h` | `github.com/leethomason/tinyxml2` |
 | yaml-cpp | `yaml-cpp.hard.h` | `github.com/jbeder/yaml-cpp` |
 | zlib | `zlib.hard.h` | `github.com/madler/zlib` |
