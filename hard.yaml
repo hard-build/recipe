@@ -1,0 +1,22 @@
+version: 1
+repositories:
+  github.com/google/crc32c:
+    source: github.com/google/crc32c
+    ref: 1.1.2
+    commit: 02e65f4fd3065d27b2e29324800ca6d04df16126
+    checksum: sha256:4586be6b715fd22c08553e18494fe1588e68b72c1ae5b103cceb9894c7cffe9d
+  github.com/jbeder/yaml-cpp:
+    source: github.com/jbeder/yaml-cpp
+    ref: yaml-cpp-0.9.0
+    commit: 56e3bb550c91fd7005566f19c079cb7a503223cf
+    checksum: sha256:a4d6ebde3c7fd4bf16cb4fd7b1b772fbfab2abb30d3a0de0f31102ce2c09173f
+  github.com/leethomason/tinyxml2:
+    source: github.com/leethomason/tinyxml2
+    ref: 11.0.0
+    commit: 9148bdf719e997d1f474be6bcc7943881046dba1
+    checksum: sha256:9060a1053dc151ba8650c9657e57e758a7d88723dad8ab31ef76f17b4abbce79
+  github.com/madler/zlib:
+    source: github.com/madler/zlib
+    ref: v1.3.2
+    commit: da607da739fa6047df13e66a2af6b8bec7c2a498
+    checksum: sha256:957ec6d58aeedcf3402e9cc0586a0e415d8cd1ecb70ec61f2b49e69e36d5b986
