@@ -1,0 +1,21 @@
+version: 1
+source: "github.com/pnggroup/libpng"
+build_system: "cmake"
+source_directory: "."
+dependencies:
+  - "zlib.hard"
+configure_arguments:
+  - "-DCMAKE_BUILD_TYPE=Release"
+  - "-DPNG_SHARED=OFF"
+  - "-DPNG_STATIC=ON"
+  - "-DPNG_TESTS=OFF"
+  - "-DPNG_TOOLS=OFF"
+  - "-DZLIB_USE_STATIC_LIBS=ON"
+  - "-DCMAKE_INSTALL_LIBDIR=lib"
+  - "-DCMAKE_INSTALL_INCLUDEDIR=include"
+source_include_directories:
+  - "."
+include_directories:
+  - "include"
+static_libraries:
+  - "lib/libpng16.a"

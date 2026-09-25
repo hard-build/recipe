@@ -20,3 +20,13 @@ repositories:
     ref: v1.3.2
     commit: da607da739fa6047df13e66a2af6b8bec7c2a498
     checksum: sha256:957ec6d58aeedcf3402e9cc0586a0e415d8cd1ecb70ec61f2b49e69e36d5b986
+  github.com/libsdl-org/SDL:
+    source: github.com/libsdl-org/SDL
+    ref: release-3.4.16
+    commit: fa2c02bb6e21974a89ea9824bc53c9932abe5f9c
+    checksum: sha256:b0f91e4c812b2669c70fe83a8346beb16a17ceda86db8f4d55e5fa0993ff0c49
+  github.com/pnggroup/libpng:
+    source: github.com/pnggroup/libpng
+    ref: v1.6.58
+    commit: 3061454d980de7d53608f594194cfac722721d2a
+    checksum: sha256:de5b195fada4f9f16b635780acfeb791e94012cab2ef3b04fb8b4ec16ed45411

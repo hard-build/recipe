@@ -1,0 +1,25 @@
+version: 1
+source: "github.com/libsdl-org/SDL"
+build_system: "cmake"
+source_directory: "."
+configure_arguments:
+  - "-DCMAKE_BUILD_TYPE=Release"
+  - "-DSDL_SHARED=OFF"
+  - "-DSDL_STATIC=ON"
+  - "-DSDL_TESTS=OFF"
+  - "-DSDL_TEST_LIBRARY=OFF"
+  - "-DSDL_EXAMPLES=OFF"
+  - "-DSDL_INSTALL=ON"
+  - "-DSDL_INSTALL_DOCS=OFF"
+  - "-DSDL_X11_XINPUT=OFF"
+  - "-DSDL_X11_XFIXES=OFF"
+  - "-DSDL_X11_XSCRNSAVER=OFF"
+  - "-DSDL_X11_XTEST=OFF"
+  - "-DCMAKE_INSTALL_LIBDIR=lib"
+  - "-DCMAKE_INSTALL_INCLUDEDIR=include"
+source_include_directories:
+  - "include"
+include_directories:
+  - "include"
+static_libraries:
+  - "lib/libSDL3.a"
