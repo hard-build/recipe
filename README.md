@@ -13,14 +13,14 @@ read these recipes. The migration does not retain the embedded format.
 
 ## Available recipes
 
-| Library | Recipe | Wrapper | Recipe dependencies |
-| --- | --- | --- | --- |
-| CRC32C | [crc32c.hard](crc32c.hard) | `crc32c.hard.h` | — |
-| libpng | [libpng.hard](libpng.hard) | `libpng.hard.h` | zlib |
-| SDL3 (draft) | [sdl3.hard](sdl3.hard) | `sdl3.hard.h` | Platform graph pending |
-| TinyXML2 | [tinyxml2.hard](tinyxml2.hard) | `tinyxml2.hard.h` | — |
-| yaml-cpp | [yaml-cpp.hard](yaml-cpp.hard) | `yaml-cpp.hard.h` | — |
-| zlib | [zlib.hard](zlib.hard) | `zlib.hard.h` | — |
+| Library | Version | Recipe | Wrapper | Recipe dependencies |
+| --- | --- | --- | --- | --- |
+| CRC32C | 1.1.2 | [crc32c.hard](crc32c.hard) | `crc32c.hard.h` | — |
+| libpng | 1.6.58 | [libpng.hard](libpng.hard) | `libpng.hard.h` | zlib |
+| SDL3 (draft) | 3.4.16 | [sdl3.hard](sdl3.hard) | `sdl3.hard.h` | Platform graph pending |
+| TinyXML2 | 11.0.0 | [tinyxml2.hard](tinyxml2.hard) | `tinyxml2.hard.h` | — |
+| yaml-cpp | 0.9.0 | [yaml-cpp.hard](yaml-cpp.hard) | `yaml-cpp.hard.h` | — |
+| zlib | 1.3.2 | [zlib.hard](zlib.hard) | `zlib.hard.h` | — |
 
 Upstream repositories, revisions and checksums are recorded in [hard.yaml](hard.yaml).
 The SDL3 draft remains available, but its Linux platform dependencies and the
